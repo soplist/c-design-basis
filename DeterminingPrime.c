@@ -1,0 +1,21 @@
+main()
+{
+   int i,m,k,j=0;
+   for(m=3;m<=m-1;i++)
+   {
+	   k=0;
+	   for(i=2;i<=m-1;i++)
+	      if(m%i==0)
+	      {
+		      k=1;
+			  break;
+	      }
+		  if(k==0)
+	      {
+			  printf("%3d",m);
+			  j=j+1;
+			  if(j%4==0)
+				  printf("\n");
+	      }
+   }
+}
